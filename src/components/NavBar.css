@@ -1,0 +1,10 @@
+ul{
+    font-size: 1.2rem;
+}
+.link{
+    padding: 0 25px 0 25px ;
+}
+
+.link:hover{
+    color: black;
+}

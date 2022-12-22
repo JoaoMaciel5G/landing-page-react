@@ -1,0 +1,21 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(54deg, rgba(202,179,213,1) 0%, rgba(60,180,226,1) 42%);
+}
+
+.register{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-around;
+}
+.enum h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    padding: 30px 0 30px 0;
+}
+.enum p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 8px;
+}
