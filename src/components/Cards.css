@@ -1,0 +1,24 @@
+#apresentacao{
+    display: flex;
+}
+#apresentacaoDois{
+    display: flex;
+    margin-bottom: 50px;
+}
+.titleCards{
+    font-weight: 300;
+    font-size: 1.4em;
+    margin: 15px 0;
+}
+.card{
+    margin: 25px;
+}
+.ads{
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.493);
+}
+#icon{
+    font-size: 4em;
+    color: rgba(0, 110, 255, 0.747);
+    margin-bottom: 23px;
+}

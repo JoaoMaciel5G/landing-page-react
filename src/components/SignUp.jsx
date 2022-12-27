@@ -1,5 +1,4 @@
 import "./SignUp.css"
-import {AiFillEye, AiFillEyeInvisible} from "react-icons/ai"
 
 export default function SignUp(){
     return(
@@ -13,20 +12,18 @@ export default function SignUp(){
             </div>
             <div className="div-input">
                 <input type="password" className="input" placeholder="Password" required/>
-                <AiFillEye/>
             </div>
-            <div className="div-input">
-                <select className="input" name="select" id="select">
+            <div className="div-input" id="select">
+                <select className="input" name="select">
                     <option value="type">Type</option>
                     <option value="basic">Basic</option>
                     <option value="business">Business</option>
-                    <option value="free">Free</option>
+                    <option value="Master">Master</option>
                 </select>
             </div>
-            <div>
-                <button type="submit">Register</button>  
+            <div className="btnDiv">
+                <button id="btn" type="submit">Register</button>  
             </div>
-            
         </div>
     )
 }

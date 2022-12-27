@@ -3,8 +3,11 @@ ul{
 }
 .link{
     padding: 0 25px 0 25px ;
+    color: white;
 }
 
 .link:hover{
+    transition: 2s;
     color: black;
+    font-size: 22px;
 }
