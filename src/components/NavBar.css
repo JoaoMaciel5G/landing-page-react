@@ -9,5 +9,4 @@ ul{
 .link:hover{
     transition: 2s;
     color: black;
-    font-size: 22px;
 }

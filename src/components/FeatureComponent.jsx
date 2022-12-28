@@ -4,10 +4,10 @@ import Prices from "./Prices";
 export default function FeaturesComponent() {
   return (
     <div id="container">
-      <div class="paragraphFeatures">
+      <div className="paragraphFeatures">
         <p>features</p>
       </div>
-      <div class="titleFeatures">
+      <div className="titleFeatures">
         <h2>App Features</h2>
       </div>
       <Cards/>

@@ -1,35 +1,53 @@
-import "./Prices.css"
+import "./Prices.css";
 
-export default function Prices(){
-    return(
-        <div id="prices">
-            <div>
-                <h2>Basic</h2>
-                <p><span className="dolar">$</span>19<span className="month">month</span></p>
-                <p>Far far away, behind the word<br/>
-                mountains, far from the countries<br/>
-                Vokalia and Consonantia, there<br/>
-                live the blind texts</p>
-                <button>Get Started</button>
-            </div>
-            <div>
-                <h2>Business</h2>
-                <p><span className="dolar">$</span>39<span className="month">month</span></p>
-                <p>Far far away, behind the word<br/>
-                mountains, far from the countries<br/>
-                Vokalia and Consonantia, there<br/>
-                live the blind texts</p>
-                <button>Get Started</button>
-            </div>
-            <div>
-                <h2>Master</h2>
-                <p><span className="dolar">$</span>99<span className="month">month</span></p>
-                <p>Far far away, behind the word<br/>
-                mountains, far from the countries<br/>
-                Vokalia and Consonantia, there<br/>
-                live the blind texts</p>
-                <button>Get Started</button>
-            </div>
+export default function Prices() {
+  return (
+    <div id="prices">
+      <div className="cardPrice">
+        <h2 className="titlePricing">Basic</h2>
+        <p className="paragraphPricing">
+          <span className="dolar">$</span>
+          <span className="price">19</span>
+          <span className="month">month</span>
+        </p>
+        <div className="apresentation">
+            <p>Far far away, behind the word</p>
+            <p>mountains, far from the countries</p>
+            <p>Vokalia and Consonantia, there</p>
+            <p>live the blind texts</p>
         </div>
-    )
+        <button className="btn">Get Started</button>
+      </div>
+      <div id="mainCard">
+        <h2 className="titlePricing">Business</h2>
+        <p className="paragraphPricing">
+          <span className="dolar">$</span>
+          <span className="price">39</span>
+          <span className="month">month</span>
+        </p>
+        <div className="apresentation">
+            <p>Far far away, behind the word</p>
+            <p>mountains, far from the countries</p>
+            <p>Vokalia and Consonantia, there</p>
+            <p>live the blind texts</p>
+        </div>
+        <button id="mainButton">Get Started</button>
+      </div>
+      <div className="cardPrice">
+          <h2 className="titlePricing">Master</h2>
+          <p className="paragraphPricing">
+            <span className="dolar">$</span>
+            <span className="price">99</span>
+            <span className="month">month</span>
+          </p>
+          <div className="apresentation">
+            <p>Far far away, behind the word</p>
+            <p>mountains, far from the countries</p>
+            <p>Vokalia and Consonantia, there</p>
+            <p>live the blind texts</p>
+        </div>
+        <button className="btn">Get Started</button>
+      </div>
+    </div>
+  );
 }

@@ -1,3 +1,82 @@
 #prices{
     display: flex;
 }
+.titlePricing{
+    font-weight: 300;
+    font-size: 2em;
+    margin-top: 35px;
+}
+.paragraphPricing{
+    color: rgb(2, 154, 255);
+    margin: 25px;
+}
+.dolar{
+    font-size: 1.3em;
+    position: relative;
+    bottom: 23px;
+}
+.cardPrice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 25px;
+    background-color: aliceblue;
+    border: 1px solid rgba(73, 73, 73, 0.075);
+}
+.price{
+    font-size: 3.4em;
+    font-weight: 300;
+}
+.month{
+    color: rgba(61, 60, 60, 0.5);
+    font-size: 1.4em;
+}
+#mainCard{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin: 10px 25px;
+    border: 1px solid rgb(0, 119, 255);
+    bottom: 30px;
+}
+.apresentation{
+    color: rgba(61, 60, 60, 0.5);
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+}
+.apresentation p{
+    margin: 4px 0;
+}
+.cardPrice .btn{
+    background-color: rgba(71, 70, 70, 0.555);
+    border-radius: 3px;
+    font-size: 1.1em;
+    padding: 8px 10px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.cardPrice .btn:hover{
+    background-color: rgba(71, 70, 70, 0.678);
+    transition: 1s;
+}
+#mainButton{
+    background-color: rgb(0, 119, 255);
+    border-radius: 5px;
+    font-size: 1.1em;
+    padding: 8px 10px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+#mainButton:hover{
+    background-color: rgb(4, 85, 207);
+    transition: 1s;
+}
