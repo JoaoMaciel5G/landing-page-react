@@ -2,7 +2,7 @@ import "./SignUp.css"
 
 export default function SignUp(){
     return(
-        <div className="sign">
+        <form className="sign">
             <h2>Sign Up for Free</h2>
             <div className="div-input">
                 <input type="text" className="input" placeholder="Full Name" required/>
@@ -24,6 +24,6 @@ export default function SignUp(){
             <div className="btnDiv">
                 <button id="btn" type="submit">Register</button>  
             </div>
-        </div>
+        </form>
     )
 }
