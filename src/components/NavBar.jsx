@@ -9,7 +9,6 @@ export default function NavBar(){
                     <Link className="link" to="/">Home</Link>
                     <Link className="link" to="/features">Features</Link>
                     <Link className="link" to="/login">Login</Link>
-                    <Link className="link" to="FAQ">FAQ</Link>
                 </ul>
             </nav>
         </div>

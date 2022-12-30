@@ -1,5 +1,6 @@
 #prices{
     display: flex;
+    padding-bottom: 50px;
 }
 .titlePricing{
     font-weight: 300;
@@ -34,11 +35,12 @@
 #mainCard{
     display: flex;
     flex-direction: column;
-    position: relative;
     align-items: center;
+    position: relative;
     margin: 10px 25px;
     border: 1px solid rgb(0, 119, 255);
     bottom: 30px;
+    cursor: pointer;
 }
 .apresentation{
     color: rgba(61, 60, 60, 0.5);
@@ -79,4 +81,10 @@
 #mainButton:hover{
     background-color: rgb(4, 85, 207);
     transition: 1s;
+}
+.cardPrice:hover{
+    cursor: pointer;
+    border: 1px solid rgb(0, 119, 255);
+    transform: translateY(-30px);
+    transition: 1.5s;
 }
