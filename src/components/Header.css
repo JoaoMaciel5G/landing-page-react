@@ -9,4 +9,6 @@
     font-weight: 500;
     font-size: 2rem;
     color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 6px;
 }

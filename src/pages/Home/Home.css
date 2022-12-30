@@ -5,15 +5,28 @@
     display: flex;
     justify-content: space-around;
 }
+.enum{
+    width: 35%;
+}
 .enum h2{
     color: white;
     font-size: 3.5rem;
     font-weight: 400;
-    padding: 30px 0 30px 0;
+    padding: 30px 0;
 }
 .enum p{
     font-size: 1.2rem;
     font-weight: 300;
     margin: 8px;
     color: white;
+}
+@media only screen and (max-width: 830px){
+    .register{
+        flex-direction: column;
+    }
+    .enum{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 70px;
+    }
 }

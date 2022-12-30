@@ -6,7 +6,7 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="main">
-        <Header />
+        <Header/>
         <div className="register">
           <div className="enum">
             <h2>

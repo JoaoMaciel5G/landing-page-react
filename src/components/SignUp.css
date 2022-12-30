@@ -3,11 +3,13 @@
     flex-direction: column;
     background-color: #fff;
     border-radius: 5px;
+    width: 40%;
 }
 .sign h2{
     color: black;
     font-weight: 300;
-    padding: 50px 100px 20px 100px;
+    text-align: center;
+    padding: 38px 0;
     font-size: 2.1rem;
 }
 .input{
@@ -42,4 +44,21 @@ select option{
 }
 #btn:hover{
     background-color: rgb(10, 197, 66);
+}
+
+@media only screen and (max-width: 1126px){
+    .sign{
+        width: 50%;
+    }
+    .sign h2{
+        padding-top: 50px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 830px){
+    .sign{
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
 }
