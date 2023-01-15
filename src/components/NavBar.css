@@ -19,7 +19,7 @@ ul{
     display: block;
 }
 .link{
-    padding: 0 25px 0 25px ;
+    padding-left: 20px;
     color: white;
 }
 
@@ -31,7 +31,7 @@ ul{
     #hamburguer{
         display: block;
         position: relative;
-        left: 30px;
+        left: 35px;
     }
     .nav{
         display: none;
