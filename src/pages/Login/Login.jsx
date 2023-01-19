@@ -1,4 +1,3 @@
-import "./Login.css"
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import LoginComponent from "../../components/LoginComponent"

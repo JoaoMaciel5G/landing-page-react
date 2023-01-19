@@ -1,6 +1,6 @@
 import Cards from "./Cards";
 import "./FeatureComponent.css";
-import Prices from "./Prices";
+import Prices from "./CardPrices";
 import Title from "./Title";
 export default function FeaturesComponent() {
   return (

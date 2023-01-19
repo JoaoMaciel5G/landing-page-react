@@ -3,12 +3,11 @@
     padding: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.head h2{
+.head .titleHeader{
     font-weight: 500;
     font-size: 2rem;
     color: rgb(255, 255, 255);
-    position: relative;
-    bottom: 6px;
 }

@@ -11,85 +11,55 @@ import {
 export default function Cards() {
   return (
     <>
-      <div id="apresentacao">
+      <div className="apresentacao">
         <div className="card">
-          <IoIosBookmarks id="icon" />
+          <IoIosBookmarks className="icon" />
           <h2 className="titleCards">Minimal Design</h2>
           <p className="ads">
-            Far far away, behind the word
-            <br />
-            mountains, far from the countries
-            <br />
-            Vokalia and Consonantia, there live the
-            <br />
-            blind texts.
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
           </p>
         </div>
         <div className="card">
-          <IoIosSpeedometer id="icon" />
+          <IoIosSpeedometer className="icon" />
           <h2 className="titleCards">Fast Loading</h2>
           <p className="ads">
-            Far far away, behind the word
-            <br />
-            mountains, far from the countries
-            <br />
-            Vokalia and Consonantia, there live the
-            <br />
-            blind texts.
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
           </p>
         </div>
         <div className="card">
-          <IoIosInfinite id="icon" />
+          <IoIosInfinite className="icon" />
           <h2 className="titleCards">Unlimited Possibilities</h2>
           <p className="ads">
-            Far far away, behind the word
-            <br />
-            mountains, far from the countries
-            <br />
-            Vokalia and Consonantia, there live the
-            <br />
-            blind texts.
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
           </p>
         </div>
       </div>
-      <div id="apresentacaoDois">
+      <div className="apresentacao">
         <div className="card">
-          <IoIosColorFilter id="icon" />
+          <IoIosColorFilter className="icon" />
           <h2 className="titleCards">Component Based Design</h2>
           <p className="ads">
-            Far far away, behind the word
-            <br />
-            mountains, far from the countries
-            <br />
-            Vokalia and Consonantia, there live the
-            <br />
-            blind texts.
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
           </p>
         </div>
         <div className="card">
-          <IoIosWine id="icon" />
+          <IoIosWine className="icon" />
           <h2 className="titleCards">Clean Code</h2>
           <p className="ads">
-            Far far away, behind the word
-            <br />
-            mountains, far from the countries
-            <br />
-            Vokalia and Consonantia, there live the
-            <br />
-            blind texts.
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
           </p>
         </div>
         <div className="card">
-          <IoIosPaperPlane id="icon" />
+          <IoIosPaperPlane className="icon" />
           <h2 className="titleCards">LightWeight</h2>
           <p className="ads">
-            Far far away, behind the word
-            <br />
-            mountains, far from the countries
-            <br />
-            Vokalia and Consonantia, there live the
-            <br />
-            blind texts.
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
           </p>
         </div>
       </div>

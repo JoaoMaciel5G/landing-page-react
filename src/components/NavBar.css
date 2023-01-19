@@ -4,40 +4,40 @@ ul{
 .nav{
     display: flex;
 }
-#hamburguer{
+#hamburguerMenu{
+    font-size: 3em;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+#close-hamburguer{
+    font-size: 3em;
+    color: white;
     cursor: pointer;
     display: none;
-}
-.spanHamburguer{
-    width: 50px;
-    height: 10px;
-    background-color: white;
-    border-radius: 10px;
-    margin-bottom: 6px;
-}
-.show{
-    display: block;
 }
 .link{
     padding-left: 20px;
     color: white;
 }
-
 .link:hover{
     transition: 2s;
     color: black;
 }
 @media only screen and (max-width: 600px){
-    #hamburguer{
-        display: block;
-        position: relative;
-        left: 35px;
-    }
-    .nav{
+    .show{
         display: none;
     }
-    .show{
-        display: flex;
+    .nav{
         flex-direction: column;
+    }
+    .link{
+        margin: 2px 3px;
+    }
+    #hamburguerMenu{
+        display: block;
+    }
+    #container-navbar{
+        display: flex;
     }
 }

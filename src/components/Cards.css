@@ -1,9 +1,5 @@
-#apresentacao{
+.apresentacao{
     display: flex;
-}
-#apresentacaoDois{
-    display: flex;
-    margin-bottom: 50px;
 }
 .titleCards{
     font-weight: 300;
@@ -11,14 +7,28 @@
     margin: 15px 0;
 }
 .card{
-    margin: 25px;
+    width: 20vw;
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .ads{
     font-size: 1.2em;
     color: rgba(0, 0, 0, 0.493);
 }
-#icon{
+.icon{
     font-size: 4em;
     color: rgba(0, 110, 255, 0.747);
     margin-bottom: 23px;
+}
+
+@media only screen and (max-width: 570px){
+    .apresentacao{
+        flex-direction: column;
+    }
+    .card{
+        width: 80vw;
+    }
 }

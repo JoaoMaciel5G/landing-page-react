@@ -6,9 +6,9 @@ export default function Footer(){
     return(
         <footer className="footer">
             <div className="icons">
-                <FaFacebookF className="icon"/>
-                <FaTwitter className="icon"/>
-                <AiFillLinkedin className="icon"/>
+                <FaFacebookF className="icon-socialMedias"/>
+                <FaTwitter className="icon-socialMedias"/>
+                <AiFillLinkedin className="icon-socialMedias"/>
             </div>
             <div>
                 <p className="footerParagraph">&copy; 2022 Landing Page Free React. All Rights Reserved</p>
