@@ -1,17 +1,20 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { AiOutlineMenu} from "react-icons/ai";
-import {GrAdd} from "react-icons/gr"
+import { AiOutlineMenu, AiOutlineClose} from "react-icons/ai";
 import "./NavBar.css";
 
 export default function NavBar() {
   let [changeClass, setClass] = useState(true);
-  let [hidden, handleHidden] = useState(true)
-
+  let [hidden, handleHidden] = useState(false)
+  
+  function handleIcon(){
+    setClass(!changeClass)
+    handleHidden(!hidden)
+  }
   return (
     <div id="container-navbar">
       <nav>
-        <ul className={changeClass ? "nav" : "show"}>
+        <ul className={changeClass ? "nav" : "hidden-navbar"}>
           <Link className="link" to="/">
             Home
           </Link>
@@ -25,10 +28,10 @@ export default function NavBar() {
       </nav>
       <div>
         <AiOutlineMenu
-          onClick={() => setClass(!changeClass)}
-          id="hamburguerMenu"
+          onClick={handleIcon}
+          className={hidden ? "show-hamburguerMenu" : "close-hamburguerMenu"}
         />
-        <GrAdd id="close-hamburguer"/>
+        <AiOutlineClose className={changeClass ? "close-menu" : "show-closeMenu"} onClick={handleIcon}/>
       </div>
     </div>
   );

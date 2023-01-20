@@ -1,6 +1,7 @@
 .head{
     width: 100%;
-    padding: 50px;
+    height: 17vh;
+    padding: 0 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;

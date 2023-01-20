@@ -3,7 +3,9 @@ import "./LoginComponent.css"
 export default function Login(){
     return(
         <form className="login">
-            <h2>Login</h2>
+            <div id="title-login">
+                <h2>Login</h2>
+            </div>
             <div className="div-input-login">
                 <input type="email" className="inputLogin" placeholder="E-mail" required/>
             </div>

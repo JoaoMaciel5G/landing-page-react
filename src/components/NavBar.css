@@ -1,43 +1,43 @@
-ul{
-    font-size: 1.2rem;
+ul {
+  font-size: 1.2rem;
 }
-.nav{
+.nav {
+  display: flex;
+}
+.close-hamburguerMenu, .close-menu {
+  display: none;
+}
+.link {
+  padding-left: 20px;
+  color: white;
+}
+.link:hover {
+  transition: 2s;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .link {
+    margin: 2px 3px;
+  }
+  .show-closeMenu, .close-hamburguerMenu {
+    display: block;
+    font-size: 3em;
+    color: white;
+    cursor: pointer;
+  }
+  .show-closeMenu{
+    margin-top: 17px;
+  }
+  
+  .hidden-navbar {
     display: flex;
-}
-#hamburguerMenu{
-    font-size: 3em;
-    color: white;
+    flex-direction: column;
+  }
+  .nav, .show-hamburguerMenu {
     display: none;
-    cursor: pointer;
-}
-#close-hamburguer{
-    font-size: 3em;
-    color: white;
-    cursor: pointer;
-    display: none;
-}
-.link{
-    padding-left: 20px;
-    color: white;
-}
-.link:hover{
-    transition: 2s;
-    color: black;
-}
-@media only screen and (max-width: 600px){
-    .show{
-        display: none;
-    }
-    .nav{
-        flex-direction: column;
-    }
-    .link{
-        margin: 2px 3px;
-    }
-    #hamburguerMenu{
-        display: block;
-    }
-    #container-navbar{
-        display: flex;
-    }
+  }
+  #container-navbar {
+    display: flex;
+  }
 }
