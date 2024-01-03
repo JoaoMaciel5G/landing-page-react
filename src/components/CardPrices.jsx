@@ -3,7 +3,7 @@ import "./CardPrices.css";
 export default function Prices() {
   return (
     <div id="prices">
-
+      
       <div className="cardPrice">
         <h2 className="titlePricing">Basic</h2>
         <p className="paragraphPricing">

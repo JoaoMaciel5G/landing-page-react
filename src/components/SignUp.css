@@ -23,10 +23,7 @@
 .div-input{
     padding: 0 40px 20px 40px;
 }
-.input::placeholder{
-    color: black;
-}
-select option{
+.input::placeholder, select option{
     color: black;
 }
 .btnDiv{

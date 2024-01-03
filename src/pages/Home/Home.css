@@ -1,5 +1,6 @@
 .main{
     background: linear-gradient(54deg, rgba(202,179,213,1) 0%, rgba(60,180,226,1) 42%);
+    height: 100%;
 }
 .register{
     display: flex;

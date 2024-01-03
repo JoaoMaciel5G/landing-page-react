@@ -1,14 +1,19 @@
 .footer{
     display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    text-align: center;
-    margin-top: 76px;
+    margin-top: 213px;
 }
 .icon-socialMedias{
     font-size: 25px;
     margin: 0 30px 0 0;
     cursor: pointer;
     color: white;
+}
+.content{
+    flex-grow: 1;
 }
 .footerParagraph{
     color: white;
